@@ -1,0 +1,17 @@
+.container{
+width:250px;
+height:250px;
+position: absolute;
+top:0;
+left:0;
+}
+
+.img-size{
+width:250px;
+height:250px;
+}
+
+.opacity{
+    background-color: white;
+    opacity: .5;
+}

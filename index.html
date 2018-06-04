@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="contDivs">
+        <div id="behind" class="container" draggable="false">
+            <img src="dog.jpg" id="backDog" style="margin: 0 0 0 0;" class="img-size opacity" alt="" draggable="false">
+        </div>
+    
+    
+        <div id="infront" style="width:150px;height:150px;position:absolute;left: 35px;top: 35px;overflow: hidden;" draggable="false">
+            <img src="dog.jpg" id="frontDog" style="width:250px;height:250px;margin: -35px -35px -35px -35px;" alt="" draggable="false">
+        </div>
+    </div>
+    
+    <script src="action.js"></script>
+</body>
+</html>
